@@ -1,0 +1,13 @@
+#Overview
+This is a completely new build for game of life problem you can refer wikipedia for availing more info on the same.
+
+#Build
+1.git clone the project
+2.cd 
+3.bundle install
+4.bundle exec rake and you are done
+
+#Testing
+1.Bundle exec rspec
+
+Thats all folks :)
