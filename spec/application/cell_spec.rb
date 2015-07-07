@@ -10,4 +10,9 @@ describe "Cell" do
     cell = Cell.new(Cell::ALIVE)
     expect(cell.state).to eq(Cell::ALIVE)
   end
+
+  it "should respond to toggle_state with change of state" do 
+    cell = Cell.new(Cell::ALIVE) 
+    expect(cell.toggle_state).to eq(Cell::DEAD)
+  end
 end
