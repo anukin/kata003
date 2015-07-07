@@ -11,4 +11,7 @@ class Board
   def rows
     @rows
   end
+
+  def cell_at(xcord, ycord)
+  end
 end
